@@ -576,3 +576,6 @@ rev = "0382b672560493840f453f2a0e24c4a129abd3a4"
 [patch.crates-io.tokio]
 git = "https://github.com/anza-xyz/solana-tokio.git"
 rev = "7cf47705faacf7bf0e43e4131a5377b3291fce21"
+[profile.release]
+debug = true
+overflow-checks = false
